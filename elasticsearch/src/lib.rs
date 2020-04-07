@@ -302,7 +302,7 @@
 // #![deny(missing_docs)]
 
 // also test examples in README
-#![feature(external_doc)]
+// TODO: uncomment once this feature is stable // #![feature(external_doc)]
 #[doc(include = "../../README.md")]
 #[cfg(doctest)]
 type _DoctestReadme = ();
